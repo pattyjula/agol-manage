@@ -18,7 +18,7 @@ from arcgis.gis import GIS
 
 arcpy.env.overwriteOutput = True
 
-# profile var
+# directory variable
 ws = sys.argv[1]
 loc = ws
 pth = os.chdir(loc)
@@ -51,7 +51,7 @@ try:
 
     # publishedWebLayer is the URL of a single feature layer within a collection in
     # an AGOL portal
-    publishedWebLayer = r"https://services6.arcgis.com/Q18o8KwHjFGbEc4j/arcgis/rest/services/ARL_data/FeatureServer/0"
+    publishedWebLayer = r"https://services6.arcgis.com/ABC123/arcgis/rest/services/ARL_data/FeatureServer/0"
 
     # a feature class on the local system with the same schema as the
     # portal layer
